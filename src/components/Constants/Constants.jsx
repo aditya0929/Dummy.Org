@@ -10,7 +10,7 @@ export const eventsData = [
     {
         id: 2,
         image: '/images/event-2.png',
-        title: 'DATACAMP-LEARN EDA',
+        title: 'DATALIZE-LEARN EDA',
         desc: "Join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques.",
         apply: 'https://bvn4lo30u9m.typeform.com/to/VwjXNJcN',
         
@@ -18,7 +18,7 @@ export const eventsData = [
     {
         id: 3,
         image: '/images/event-3.png',
-        title: 'upcoming event',
+        title: 'Dataverse(upcoming event)',
           
         desc: "Join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques.",
         apply: 'https://bvn4lo30u9m.typeform.com/to/VwjXNJcN',
@@ -27,7 +27,7 @@ export const eventsData = [
     {
         id: 4,
         image: '/images/event-4.png',
-        title: 'upcoming event',
+        title: 'data-analysis(upcoming event)',
         desc: "join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques.",
         apply: 'https://bvn4lo30u9m.typeform.com/to/VwjXNJcN',
         
