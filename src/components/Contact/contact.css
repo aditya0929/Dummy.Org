@@ -1,0 +1,43 @@
+.container-container{
+  text-align: center;
+  background-image: url(../../assets/hero4.png);background-position: center;
+}
+.contact-title{
+font-size: clamp(2.6rem, 8vw, 10rem);
+  font-weight: var(--bold-fw);
+  line-height: 2.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.contact-desc{
+  color: var(--white-clr);
+  font-family: var(--grotesk-ff);
+  font-size: var(--h3-fs);
+  font-weight: var(--medium-fw);
+  text-align: center;
+  margin: 0 auto;
+  max-width: 50ch;
+}
+.contact-link{
+  font-family: var(--grotesk-ff);
+  font-size: var(--h2-fs);color: var(--grey-clr-alt);
+  transition: 0.3s;
+}
+.contact-link:hover{
+  color: var(--white-alt);
+  border-bottom: 1px solid var(--white-alt);
+}
+.contact-mail{
+  margin-block: 2.5rem;
+}
+.contact-social{display: flex;justify-content: space-evenly;align-items: center;gap: 5px;}
+.container-link-bottom{display: inline-flex;align-items: center;border-bottom: 1px solid var(--border-clr-alt);font-weight: var(--medium-fw);color: var(--grey-clr);gap: 5px;transition: 0.3s;}
+.container-link-bottom:hover, 
+.contact_p:hover{color: var(--white-alt);}
+.contact_p{font-family: var(--grotesk-ff);}
+.contact-icon{color: var(--grey-clr);}
+.contact-icon:hover{color: var(--white-alt);}@media screen and (max-width: 320px)
+{.contact-title {font-size: var(--h1-fs);margin-bottom: 1.5rem;}}
+@media screen and (min-width: 768px){.contact-title{margin-bottom: 3.5rem;}}

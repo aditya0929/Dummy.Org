@@ -1,0 +1,113 @@
+.about {
+  margin-top: 0rem;
+  background-image: url(../../assets/hero2.png);background-position: center;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -25px;
+}
+
+.about-title {
+  font-size: var(--bigger-fs);
+  font-weight: var(--bold-fw);
+  line-height: 2.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.about-desc {
+  font-size: var(--h2-fs);
+  color: var(--grey-clr);
+  font-family: var(--grotesk-ff);
+  margin-bottom: 0.75rem;
+}
+
+.about-desc-mb {
+  margin-bottom: 1.5rem;
+}
+
+.about-txt {
+  display: none;
+}
+
+.about-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: var(--bold-fw);
+}
+
+.download-icon {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 400px) {
+  .about-desc {
+    font-size: var(--normal-fs);
+  }
+  
+  .about-title {
+    font-size: var(--h2-fs);
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .about-title {
+    font-size: var(--biggest-fs);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    border-top: 1px solid var(--border-clr-alt);
+    border-bottom: 1px solid var(--border-clr-alt);
+    flex-direction: row-reverse;
+  }
+  
+  .about-content {
+    padding: 32px 40px;
+  }
+  
+  .about-title {
+    line-height: 2.2rem;
+    margin-bottom: 24px;
+  }
+  
+  .about-desc {
+    line-height: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .about-txt {
+    display: block;
+    position: relative;
+    width: 332px;
+    flex: 1 0 auto;
+    border-right: 1px solid var(--border-clr-alt);
+    padding-top: 40px;
+  }
+  
+  .about-txt-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-txt-h3 {
+    color: var(--black-clr-alt);
+    font-size: var(--h1-fs);
+    text-shadow: -3px -3px var(--white-alt);
+    font-family: var(--lexend-ff);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: lowercase;
+  }
+}

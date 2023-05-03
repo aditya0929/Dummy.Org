@@ -1,0 +1,30 @@
+.services-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  color: var(--black-clr-alt);
+  border-top: 1px solid var(--black-clr);
+  border-bottom: 1px solid var(--black-clr);
+  background-color: var(--grey-clr);
+  box-shadow: -1px 7px 0 0 var(--black-clr);
+  position: relative;
+  top: -20px;bottom: -10px;
+  /* adjust the value to suit your needs */
+}
+
+.welcome-text {
+  font-size: var(--h2-fs);
+  font-family: var(--lexend-ff);
+  margin: 2px 10px;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 100px) {
+  .services-container {
+    padding: 2rem 0;
+  }
+  
+  .welcome-text {
+    margin: 5px 10px;
+  }
+}

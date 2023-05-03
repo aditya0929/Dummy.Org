@@ -1,0 +1,8 @@
+.footer{margin-top: 2.5rem;border-block-start: 1px solid var(--border-clr-alt);background-image: url(../../assets/hero3.png);background-position: center;}
+.footer-container{display: flex;justify-content: space-between;align-items: center;gap: 20px;}
+.copyright{flex-grow: 1;font-family: var(--grotesk-ff);font-weight: var(--regular-fw);color: var(--grey-clr-alt);}
+.copyright_name{font-weight: var(--bold-fw);color: var(--white-alt);}
+.footer_span{display: none;font-weight: var(--regular-fw);}.footer_span:active, 
+.footer_span:hover{color: var(--white-alt);}.back-top-btn{color: var(--grey-clr-alt);padding: 32px 16px;border-inline: 1px solid var(--border-clr-alt);}
+@media screen and (min-width: 968px)
+{.footer_span{display: block;}.back-top-btn {display: flex;align-items: center;gap: 10px;}}

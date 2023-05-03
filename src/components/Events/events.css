@@ -1,0 +1,123 @@
+.events-title {
+    font-size: var(--bigger-fs);
+    font-weight: var(--bold-fw);
+    line-height: 2.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+  }
+  
+  .events-container {
+    grid-row-gap: 24px;
+    grid-template-columns: 1fr;
+  }
+  
+  .event-box {
+    margin-bottom: 1rem;
+  }
+  
+  .event-img {
+    border-radius: 16px;
+  }
+  
+  .event-name {
+    font-size: var(--h2-fs);
+    font-weight: var(--bold-fw);
+    line-height: 1.5;
+    margin-block: 0.75rem;
+  }
+  
+  .event-desc {
+    font-weight: var(--medium-fw);
+    font-size: var(--normal-fs);
+    font-family: var(--grotesk-ff);
+    color: var(--grey-clr);
+    line-height: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .event-link-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .event-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--grey-clr);
+    font-family: var(--grotesk-ff);
+    gap: 5px;
+    transition: 0.3s;
+  }
+  
+  .event-link-one {
+    background-color: var(--grey-clr);
+    color: var(--black-clr-alt);
+    font-weight: var(--medium-fw);
+    border-radius: 4px;
+    padding: 8px;
+    transition: 0.3s;
+  }
+  
+  .event-link-one:hover {
+    background-color: var(--grey-clr-alt);
+    color: var(--black-clr);
+  }
+  
+  .event-link-two:hover {
+    color: var(--white-alt);
+  }
+  
+  .events-more-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .events-title {
+      font-size: var(--h2-fs);
+    }
+  
+    .event-name {
+      font-size: var(--h3-fs);
+    }
+  }
+  
+  @media screen and (min-width: 568px) {
+    .events-title {
+      font-size: var(--biggest-fs);
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .events-container {
+      grid-auto-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 16px;
+      grid-template-rows: auto auto;
+    }
+  
+    .events-title {
+      margin-bottom: 3.5rem;
+    }
+  
+    .event-img {
+      border-radius: 20px;
+    }
+  
+    .event-box:nth-child(2),
+    .event-box:nth-child(4) {
+      padding-top: 4.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 968px) {
+    .events-more-wrapper {
+      margin-top: 2.5rem;
+    }
+  }
+  

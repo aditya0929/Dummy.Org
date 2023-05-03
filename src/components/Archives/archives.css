@@ -1,0 +1,12 @@
+.projects-title{font-size: var(--bigger-fs);font-weight: var(--bold-fw);line-height: 2.4rem;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 2.5rem;background-image: url(../../assets/hero3.png);background-position: center;}
+.archives-container {display: grid;padding: 0;grid-template-columns: 1fr;gap: 15px;}
+.archives-box {background-color: var(--archives-clr);padding: 2rem;border-radius: 5px;}
+.archives-title {font-size: var(--h3-fs);font-weight: var(--bold-fw);margin-bottom: 1rem;}
+.archives-desc {color: var(--grey-clr);font-weight: var(--medium-fw);font-size: var(--normal-fs);font-family: var(--grotesk-ff);line-height: 24px;margin-bottom: 1.5rem;}
+.archives-bottom{display: flex;align-items: center;justify-content: space-between;}
+.archives-link {margin-top: 0.75rem;}.project-link{display: inline-flex;align-items: center;color: var(--grey-clr);font-family: var(--grotesk-ff);gap: 5px;transition: 0.3s;}
+.project-link-one{background-color: var(--grey-clr);color: var(--black-clr-alt);font-weight: var(--medium-fw);border-radius: 4px;padding: 8px;transition: 0.3s;}
+.project-link-one:hover{background-color: var(--grey-clr-alt);color: var(--black-clr);}
+.project-link-two:hover{color: var(--white-alt);} 
+@media screen and (max-width: 320px){.projects-title {font-size: var(--h2-fs);text-align: center;}.archives-box {padding: 1rem;}}@media screen and (min-width: 568px){.projects-title{font-size: var(--biggest-fs);}}@media screen and (min-width: 768px){.projects-title{margin-bottom: 3.5rem;}}
+@media screen and (min-width: 968px){.archives-container {grid-template-columns: repeat(3, 1fr);gap: 15px;}}

@@ -1,0 +1,19 @@
+.custom-cursor{display: none;}
+@media screen and (min-width: 992px){
+    .custom-cursor{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        /* transform: translate3d(0, 0, 0); */
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color:  var(--almond-clr);
+        pointer-events: none;
+        mix-blend-mode: difference;
+        /* mix-blend-mode: exclusion; */
+        z-index: 1000;
+    }
+}
