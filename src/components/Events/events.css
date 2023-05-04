@@ -1,3 +1,20 @@
+.events {
+  margin-top: 2.5rem;
+  border-block-start: 1px solid var(--border-clr-alt);
+  background-image: url(../../assets/hero6.png);
+  background-position: center;
+  animation: fade 1s ease-in-out 15;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
 .events-title {
     font-size: var(--bigger-fs);
     font-weight: var(--bold-fw);
@@ -21,7 +38,7 @@
   }
   
   .event-name {
-    font-size: var(--h2-fs);
+    font-size: var(--h1-fs);
     font-weight: var(--bold-fw);
     line-height: 1.5;
     margin-block: 0.75rem;
@@ -31,7 +48,7 @@
     font-weight: var(--medium-fw);
     font-size: var(--normal-fs);
     font-family: var(--grotesk-ff);
-    color: var(--grey-clr);
+    color: var(--green-clr);
     line-height: 24px;
     margin-bottom: 1rem;
   }
