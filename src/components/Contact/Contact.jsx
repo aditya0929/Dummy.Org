@@ -15,7 +15,7 @@ const Contact = () => {
         <p className="contact-desc">come participate in our events and win prizes and be an active member of our community</p>
 
         <div className="contact-mail">
-          <a href="mailto:mabiorduom5@gmail.com" target="_blank" className="contact-link">dsc.vitb@vitbhopal.ac.in</a>
+          <a href="mailto:dsc.vitb@vitbhopal.ac.in" target="_blank" className="contact-link">dsc.vitb@vitbhopal.ac.in</a>
         </div>
 
         <div className="contact-social">
