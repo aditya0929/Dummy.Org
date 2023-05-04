@@ -3,7 +3,7 @@
   border-block-start: 1px solid var(--border-clr-alt);
   background-image: url(../../assets/hero6.png);
   background-position: center;
-  animation: fade 1s ease-in-out 15;
+  animation: fade 1s ease-in-out 24;
 }
 
 @keyframes fade {
