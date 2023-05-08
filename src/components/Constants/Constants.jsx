@@ -3,7 +3,7 @@ export const eventsData = [
         id: 1,
         image: '/images/event-1.png',
         title: 'DATACAMP - LEARN DATA VISUALIZATION',
-        desc: " Join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques.",
+        desc: " Join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques. location- Academic Block(AB-503)",
         apply: 'https://bvn4lo30u9m.typeform.com/to/VwjXNJcN',
        
     },
@@ -11,7 +11,7 @@ export const eventsData = [
         id: 2,
         image: '/images/event-2.png',
         title: 'DATALIZE-LEARN EDA',
-        desc: "Join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques.",
+        desc: "Join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques. location- Academic Block(AB-503)",
         apply: 'https://bvn4lo30u9m.typeform.com/to/VwjXNJcN',
         
     },
@@ -20,7 +20,7 @@ export const eventsData = [
         image: '/images/event-3.png',
         title: 'Dataverse(upcoming event)',
           
-        desc: "Join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques.",
+        desc: "Join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques. location- Academic Block(AB-503)",
         apply: 'https://bvn4lo30u9m.typeform.com/to/VwjXNJcN',
         
     },
@@ -28,7 +28,7 @@ export const eventsData = [
         id: 4,
         image: '/images/event-4.png',
         title: 'data-analysis(upcoming event)',
-        desc: "join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques.",
+        desc: "join us for an exciting data science event where you'll learn from leading experts in the field, network with other professionals, and gain hands-on experience with the latest tools and techniques. location- Academic Block(AB-503)",
         apply: 'https://bvn4lo30u9m.typeform.com/to/VwjXNJcN',
         
     },
