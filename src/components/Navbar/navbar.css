@@ -1,27 +1,139 @@
-.header{
-  position: fixed;top: 0;left: 0;width: 100%;background: transparent;z-index: var(--z-fixed);}
-.nav{height: var(--header-height);display: flex;align-items: center;justify-content: space-between;}
-.nav-logo, 
-.nav-toggle{color: var(--grey-clr-alt);}
-.nav-logo{display: flex;align-items: center;column-gap: 0.25rem;font-weight: var(--bold-fw);}
-.nav-logo-img {width: 1.5rem;}
-.nav-toggle {display: inline-flex;font-size: 1.25rem;cursor: pointer;transition: 0.4s;}
-.nav-toggle:active {transform: scale(2);}
-@media screen and (max-width: 768px)
-{.nav-menu{position: fixed;background-color: var(--grey-clr-alt);left: 0;top: -100%;width: 100%;padding: 4rem 0 6rem;border-radius: 0 0 22px 22px;box-shadow: 0 2px 4px hsla(38, 4%, 15%, .15);transition: 0.4s;z-index: var(--z-tooltip);}}
-.nav-list{display: flex;flex-direction: column;align-items: center;row-gap: 2rem;}
-.nav-link{color: var(--black-clr-alt);font-size: var(--biggest-fs);text-transform: uppercase;font-weight: var(--bold-fw);transition: .3s;}
-.nav-link:hover{color: var(--white-alt);}
-.shadow{text-shadow: -2px -2px var(--grey-2);}
-.nav-close{position: absolute;top: 1rem;right: 1.5rem;font-size: 1.5rem;color: var(--black-clr-alt);border-radius: 50%;border: 1px solid var(--black-clr-alt);padding: 2px;cursor: pointer;transition: 0.4s;}
-.nav-close:active {transform: scale(2);}
-.nav-footer{position: absolute;bottom: 0;padding: 24px;display: flex;place-content: flex-start space-between;align-items: flex-start;width: 100%;flex: 0 0 auto;overflow: hidden;}
-.nav-footer-text-1{display: flex;align-items: center;place-content: flex-start center;gap: 2px;}
-.nav-footer-text-1, 
-.nav-footer-text-2{font-size: var(--h3-fs);font-weight: var(--medium-fw);color: var(--black-clr-alt);}
-.button-header{display: none;}
-.activeMenu{top: 0;}
-.scrollHeader{background-color: var(--black-clr-alt);box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: var(--z-fixed);
+}
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo,
+.nav-toggle {
+  color: var(--grey-clr-alt);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  font-weight: var(--bold-fw);
+}
+
+.nav-logo-img {
+  width: 1.5rem;
+}
+
+.nav-toggle {
+  display: inline-flex;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav-toggle:active {
+  transform: scale(2);
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    background-color: var(--grey-clr-alt);
+    left: 0;
+    top: -100%;
+    width: 100%;
+    padding: 4rem 0 6rem;
+    border-radius: 0 0 22px 22px;
+    box-shadow: 0 2px 4px hsla(38, 4%, 15%, .15);
+    transition: 0.4s;
+    z-index: var(--z-tooltip);
+  }
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.nav-link {
+  color: var(--black-clr-alt);
+  font-size: var(--biggest-fs);
+  text-transform: uppercase;
+  font-weight: var(--bold-fw);
+  transition: .3s;
+}
+
+.nav-link:hover {
+  color: var(--white-alt);
+}
+
+.shadow {
+  text-shadow: -2px -2px var(--grey-2);
+}
+
+.nav-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--black-clr-alt);
+  border-radius: 50%;
+  border: 1px solid var(--black-clr-alt);
+  padding: 2px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav-close:active {
+  transform: scale(2);
+}
+
+.nav-footer {
+  position: absolute;
+  bottom: 0;
+  padding: 24px;
+  display: flex;
+  place-content: flex-start space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.nav-footer-text-1 {
+  display: flex;
+  align-items: center;
+  place-content: flex-start center;
+  gap: 2px;
+}
+
+.nav-footer-text-1,
+.nav-footer-text-2 {
+  font-size: var(--h3-fs);
+  font-weight: var(--medium-fw);
+  color: var(--black-clr-alt);
+}
+
+.button-header {
+  display: none;
+}
+
+.activeMenu {
+  top: 0;
+}
+
+.scrollHeader {
+  background-color: var(--black-clr-alt);
+  box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+}
 @media screen and (min-width: 768px)
 {.nav{height: calc(var(--header-height) + 1.5rem);}
  .nav-close,.nav-toggle{display: none;}
