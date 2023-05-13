@@ -25,7 +25,7 @@ const App = () => {
     })
     sr.reveal(`.home-container, .home-desc, .about-content, .project-desc, .projects-more-wrapper, .archives-title, .archives-desc, .contact-desc, .footer-container`)
     sr.reveal(`.home-subtitle, .home-image-container, .line, .about-title, .projects-title, .about-txt-h3, .project-name, .contact-title, .contact-mail`, {delay:500, origin:'bottom'})
-    sr.reveal(`.project-box, .project-link-wrapper, .archives-box, .archives-bottom, .contact-social`, {interval: 100})
+    sr.reveal(`.event-box, .project-link-wrapper, .archives-box, .archives-bottom, .contact-social`, {interval: 100})
   }, []);
 
   return (
