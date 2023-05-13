@@ -4,6 +4,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
+    /* box shadow for a loading bar effect*/
     box-shadow: inset 55vw 0 0 0 var(--black-clr-alt),
                 inset -55vw 0 0 0 var(--black-clr-alt);
     display: grid;
