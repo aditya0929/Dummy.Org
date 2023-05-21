@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section className="home section" id="home">
       <div className="home-container container grid">
-        <p className="home-subtitle">HELLO THERE, WELCOME TO THE </p>
+        <p className="home-subtitle">Hello there, Welcome to the </p>
         <div className="home-image-container">
           <img src={MB} alt="logo" className="home-image" />
         </div>
