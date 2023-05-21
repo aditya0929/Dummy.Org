@@ -11,7 +11,7 @@ const Home = () => {
           <img src={MB} alt="logo" className="home-image" />
         </div>
         <p className="home-desc">
-          VIT BHOPAL UNIVERSITY{' '}
+          xyz city, India{' '}
           
         </p>
       </div>
