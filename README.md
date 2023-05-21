@@ -36,7 +36,7 @@ The above command will start the development server and automatically open the p
 The project directory contains the following files and directories:
 
 - `src/`: This directory contains the React components and JavaScript files for the application logic.
-- `public/`: This directory contains the HTML file and other static assets used in the project.
+- `public/`: This directory contains the images and favicon that are been used in the project.
 - `README.md`: This file provides information about the project.
 
 you can use whatever elements of the website that you like .
