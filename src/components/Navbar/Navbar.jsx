@@ -32,7 +32,7 @@ const Navbar = () => {
     <header className={scrollHeader}>
       
       <nav className="nav container">
-        <a href="#home" className="nav-logo">DATA ORG </a>
+        <a href="#home" className="nav-logo">Dummy ORG </a>
           <div className={active}>
             <ul onClick={removeNav} className="nav-list">
               <li className="nav-item"><a href="#home" className="nav-link shadow hidden">Home</a></li>
