@@ -32,7 +32,7 @@ const Navbar = () => {
     <header className={scrollHeader}>
       
       <nav className="nav container">
-        <a href="#home" className="nav-logo">DATA SCIENCE CLUB</a>
+        <a href="#home" className="nav-logo">DATA ORG </a>
           <div className={active}>
             <ul onClick={removeNav} className="nav-list">
               <li className="nav-item"><a href="#home" className="nav-link shadow hidden">Home</a></li>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <div>©</div>
                 <div>20xx</div>
               </div>
-              <div className="nav-footer-text-2"><p>dsc club</p></div>
+              <div className="nav-footer-text-2"><p>dummy org</p></div>
             </div>
             <div onClick={removeNav} className="nav-close"><IoMdClose className="icon" /></div>
           </div>
