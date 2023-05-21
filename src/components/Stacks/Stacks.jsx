@@ -12,7 +12,7 @@ const Stacks = () => {
           <h1 className="welcome-text">👩🏽‍💻</h1>
           <h1 className="welcome-text">our new upcoming event </h1>
           <h1 className="welcome-text">👩🏽‍💻</h1>
-          <h1 className="welcome-text">registration will start from april/2023</h1>
+          <h1 className="welcome-text">learn the basics of datascience</h1>
 
 
         </Marquee>
