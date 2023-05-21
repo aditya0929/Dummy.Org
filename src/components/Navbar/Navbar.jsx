@@ -45,7 +45,7 @@ const Navbar = () => {
                 <div>©</div>
                 <div>20xx</div>
               </div>
-              <div className="nav-footer-text-2"><p>dummy org</p></div>
+              <div className="nav-footer-text-2"><p>Dummy ORG </p></div>
             </div>
             <div onClick={removeNav} className="nav-close"><IoMdClose className="icon" /></div>
           </div>
